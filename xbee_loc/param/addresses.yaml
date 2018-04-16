@@ -1,0 +1,60 @@
+# XBee addresses by product code. Codes can be found in https://www.digi.com/wiki/developer/index.php/XBee_Product_Codes
+# 
+# 0001 -> XBee 802.15.4 (Series 1)
+# 0003 -> XBee ZB (Zigbee 2007)
+# 000a -> XBee ZB on S2C (surface mount)
+
+# S1
+"0001":
+  RX:
+    SH: 0013a200
+    SL: 40b06630
+
+  TX1:
+    SH: 0013a200
+    SL: 40b065e7
+
+  TX2:
+    SH: 0013a200
+    SL: 40b06540
+
+  TX3:
+    SH: 0013a200
+    SL: 40b065f9
+
+# Fix these addresses
+# S2B
+"0003":
+  RX:
+    SH: 0013a200
+    SL: 41498d5f
+
+  TX1:
+    SH: 0013a200
+    SL: 414f940c
+
+  TX2:
+    SH: 0013a200
+    SL: 41498d57
+
+  TX3:
+    SH: 0013a200
+    SL: 41498d5d
+
+# S2C
+"000a":
+  RX:
+    SH: 0013a200
+    SL: 41498d5f
+
+  TX1:
+    SH: 0013a200
+    SL: 414f940c
+
+  TX2:
+    SH: 0013a200
+    SL: 41498d57
+
+  TX3:
+    SH: 0013a200
+    SL: 41498d5d

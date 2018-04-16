@@ -1,0 +1,7 @@
+<launch>
+	<!-- Launch IMU node -->
+	<node name="imu_node" type="um6_driver" pkg="um6" output="screen" args="_port:=/dev/ttyUSB1" />
+
+	<!-- Launch XBEE node -->
+	<node name="xbee_node" type="xbee_node.py" pkg="xbee_loc" output="screen" />
+</launch>
